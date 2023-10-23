@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+ 
+    <title>Jogo da Memória | Login</title>
+</head>
+<body>
+    <main>
+    <form class="login-form">
+        <div class="login-header">
+            <img src="imagens/logo.png" alt="logo-login">
+            <h1>Jogo da Memória</h1>
+        </div>
+
+        <input type="text" placeholder="Nome" class="login-input">
+        
+        <button type="submit" class="login-button" disabled>Iniciar</button>
+    </form>
+
+    <div class="game-rules">
+        <aside>
+            <h2 class="titulorules">REGRAS DO JOGO</h2>
+            <p> Jogada Correta: +10 pontos</p>
+            <p> Jogada Incorreta: -5 pontos</p>
+            <p> Aviso: A pontuação final pode ser negativa.</p>
+        </aside>
+    </div>
+</main>
+
+<script src="./js/login.js"></script>
+</body>
+</html>
