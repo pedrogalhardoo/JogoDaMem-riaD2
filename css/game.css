@@ -89,6 +89,18 @@ header {
     cursor: pointer;
 }
 
+.back-button {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.back-button:hover {
+    cursor: pointer;
+}
+
 .modal {
     display: none;
     position: fixed;

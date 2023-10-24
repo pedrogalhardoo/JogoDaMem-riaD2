@@ -94,7 +94,7 @@ const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
   updateScore();
-  if (disabledCards.length === 4) {
+  if (disabledCards.length === 18) {
     clearInterval(this.loop);
     const endGameMessage = document.getElementById('endGameMessage');
     const endGameModal = document.getElementById('endGameModal');
